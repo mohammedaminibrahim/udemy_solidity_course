@@ -20,7 +20,7 @@ interface ERC20Interface {
 }
  
  
-contract Cryptos is ERC20Interface{
+contract Cedis is ERC20Interface{
     string public name = "CEDIS";
     string public symbol = "GHS";
     uint public decimals = 0; //18 is very common
